@@ -1,0 +1,41 @@
+section {
+    background-color: pink;
+    background-image: url(https://i.etsystatic.com/9674889/r/il/82e9e1/650979751/il_1588xN.650979751_at3j.jpg);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.img1 {
+    object-fit: fill;
+}
+
+.img2 {
+    object-fit: cover;
+}
+
+.img3 {
+    object-fit: contain;
+}
+
+.hero-image {
+    background-image: url("/w3images/photographer.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+p::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+}
